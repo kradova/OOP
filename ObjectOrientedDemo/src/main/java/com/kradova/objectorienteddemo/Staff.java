@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.kradova.objectorienteddemo;
 
-/**
- *
- * @author radov
- */
 public class Staff {
-    
-}
+
+    private String nameOfStaff;
+    private final int hourlyRate = 30;
+    public int hoursWorked;
+
+    public void printMessage() {
+        System.out.println("Calculating Pay...");
+        System.out.println(this.hoursWorked);
+    }
+
+    public int calculatePay() {
+        printMessage();
+        int staffPay;
+        staffPay = hoursWorked * hourlyRate;
+        if (hoursWorked > 0) {
+            return staffPay;
+        } else {
+            return -1;
+        }
+    }
+}// Staff
