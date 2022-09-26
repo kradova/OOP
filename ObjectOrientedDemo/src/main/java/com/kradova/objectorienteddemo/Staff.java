@@ -4,11 +4,10 @@ public class Staff {
 
     private String nameOfStaff;
     private final int hourlyRate = 30;
-    public int hoursWorked;
+    private int hoursWorked;
 
     public void printMessage() {
         System.out.println("Calculating Pay...");
-        System.out.println(this.hoursWorked);
     }
 
     public int calculatePay() {
