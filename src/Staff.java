@@ -2,6 +2,8 @@ public class Staff {
 
     private String nameOfStaff;
     private final int hourlyRate = 30;
+
+
     private int hoursWorked;
 
     public void printMessage() {
@@ -36,4 +38,9 @@ public class Staff {
             System.out.println("Error: HoursWorked is not updated");
         }
     }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
 }// Staff

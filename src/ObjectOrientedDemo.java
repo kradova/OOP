@@ -6,6 +6,8 @@ public class ObjectOrientedDemo {
 
         Staff a = new Staff();
         a.setHoursWorked(10);
+
+        System.out.println(a.getHoursWorked());
     }// main
 }
 
