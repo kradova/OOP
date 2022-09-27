@@ -1,5 +1,3 @@
-package com.kradova.objectorienteddemo;
-
 public class Staff {
 
     private String nameOfStaff;
@@ -18,6 +16,15 @@ public class Staff {
             return staffPay;
         } else {
             return -1;
+        }
+    }
+
+    public int caculatePay(int bonus, int allowance) {
+        printMessage();
+        if (hoursWorked > 0) {
+            return hoursWorked * hourlyRate + bonus + allowance;
+        } else {
+            return 0;
         }
     }
 }// Staff
