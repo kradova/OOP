@@ -3,8 +3,17 @@ public class Staff {
     private String nameOfStaff;
     private final int hourlyRate = 30;
 
+    public int fieldOne;
 
     private int hoursWorked;
+
+    public Staff() {
+        this.nameOfStaff = "DEFAULT";
+    }
+
+    public Staff(String nameOfStaff) {
+        this.nameOfStaff = nameOfStaff;
+    }
 
     public void printMessage() {
         System.out.println("Calculating Pay...");
@@ -44,3 +53,4 @@ public class Staff {
     }
 
 }// Staff
+
