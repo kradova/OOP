@@ -11,8 +11,16 @@ public class Staff {
         this.nameOfStaff = "DEFAULT";
     }
 
-    public Staff(String nameOfStaff) {
-        this.nameOfStaff = nameOfStaff;
+    public Staff(String name) {
+        nameOfStaff = name;
+        System.out.println("\n" + nameOfStaff);
+        System.out.println("--------------------------");
+    }
+
+    public Staff(String firstName, String lastName) {
+        nameOfStaff = firstName + " " + lastName;
+        System.out.println("\n" + nameOfStaff);
+        System.out.println("---------------------------");
     }
 
     public void printMessage() {
