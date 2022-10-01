@@ -1,13 +1,11 @@
 public class ObjectOrientedDemo {
-
-
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        Staff a = new Staff();
-        a.setHoursWorked(10);
-
-        System.out.println(a.getHoursWorked());
+//        Staff a = new Staff();
+//        a.setHoursWorked(10);
+//
+//        System.out.println(a.getHoursWorked());
 
 
         Cat cat_1 = new Cat();
@@ -19,6 +17,17 @@ public class ObjectOrientedDemo {
         Cat cat_2 = new Cat("Leva", 7);
         System.out.println("Name: " + cat_2.getName() +
                 "; Age: " + cat_2.getAge());
+
+        Staff staff1 = new Staff("Peter");
+        staff1.setHoursWorked(160);
+        int pay = staff1.calculatePay(1000, 400);
+        System.out.println("Pay = " + pay);
+
+        Staff staff2 = new Staff("Jane", "Lee");
+        staff2.setHoursWorked(160);
+        pay = staff2.calculatePay();
+        System.out.println("Pay = " + pay);
+
     }// main
 }
 
