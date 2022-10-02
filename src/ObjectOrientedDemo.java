@@ -33,13 +33,19 @@ public class ObjectOrientedDemo {
 //        System.out.println("\nHours Worked = " + staff2.getHoursWorked());
 //        pay = staff2.calculatePay();
 //        System.out.println("Pay = " + pay);
-        StaticDemo sd = new StaticDemo();
-        System.out.println(sd.message);
-        sd.displayMessage();
+        //Static methods
+//        StaticDemo sd = new StaticDemo();
+//        System.out.println(sd.message);
+//        sd.displayMessage();
+//
+//        System.out.println(StaticDemo.greetings);
+//        StaticDemo.displayGreetings();
 
-        System.out.println(StaticDemo.greetings);
-        StaticDemo.displayGreetings();
+//Arrays
+    ArrayMethodDemo amd = new ArrayMethodDemo();
 
+    int[] myArray = {1, 2, 3, 4, 5};
+    amd.printFirstElement(myArray);
 
     }// main
 }//ObjectOrientedDemo
