@@ -1,3 +1,7 @@
+import animals.Animal;
+import animals.Dog;
+import animals.Cat;
+
 import java.util.Arrays;
 
 public class ObjectOrientedDemo {
@@ -44,23 +48,41 @@ public class ObjectOrientedDemo {
 //        StaticDemo.displayGreetings();
 
 //Arrays
-        ArrayMethodDemo amd = new ArrayMethodDemo();
 
-        int[] myArray = {1, 2, 3, 4, 5};
-        amd.printFirstElement(myArray);
+//        ArrayMethodDemo amd = new ArrayMethodDemo();
+//
+//        int[] myArray = {1, 2, 3, 4, 5};
+//        amd.printFirstElement(myArray);
+//
+//        int[] myArray2 = amd.returnArray();
+//        System.out.println(Arrays.toString(myArray2));
+//
+//        int number = 2;
+//        System.out.println("number before = " + number);
+//        amd.passPrimitive(number);
+//        System.out.println("number after = " + number);
+//        System.out.print("\n");
+//
+//        System.out.println("myArray[1] before = " + myArray[1]);
+//        amd.passReference(myArray);
+//        System.out.println("myArray[1] after = " + myArray[1]);
 
-        int[] myArray2 = amd.returnArray();
-        System.out.println(Arrays.toString(myArray2));
+        Animal it = new Animal("Animal", 3);
+        System.out.println(it.getName());
+        System.out.println(it.getAge());
+        it.go();
 
-        int number = 2;
-        System.out.println("number before = " + number);
-        amd.passPrimitive(number);
-        System.out.println("number after = " + number);
-        System.out.print("\n");
+        Dog viva = new Dog("Viva", 12);
+        System.out.println(viva.getName());
+        System.out.println(viva.getAge());
+        viva.go(viva.getName());
 
-        System.out.println("myArray[1] before = " + myArray[1]);
-        amd.passReference(myArray);
-        System.out.println("myArray[1] after = " + myArray[1]);
+        Cat archi = new Cat("Archi", 7);
+        System.out.println(archi.getName());
+        System.out.println(archi.getAge());
+        archi.go(archi.getName());
+
+
     }// main
 }//ObjectOrientedDemo
 
