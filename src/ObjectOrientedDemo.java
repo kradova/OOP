@@ -82,8 +82,12 @@ public class ObjectOrientedDemo {
         System.out.println(archi.getAge());
         archi.go(archi.getName());
 
-
+        animalGo(viva);
+        animalGo(archi);
     }// main
+    public static void animalGo(Animal animal){
+        animal.go();
+    }
 }//ObjectOrientedDemo
 
 
