@@ -84,6 +84,8 @@ public class ObjectOrientedDemo {
 
         animalGo(viva);
         animalGo(archi);
+
+
     }// main
     public static void animalGo(Animal animal){
         animal.go();
