@@ -9,5 +9,8 @@ public class NormalMember extends Member {
         super(name, memberID, memberSince);
         System.out.println("Child Constructor with 3 parameters");
     }
-}
-
+    @Override
+    public void calculateAnnualFee(){
+        annualFee = (1-0.01*getDiscount())*(100 + 12*30);
+    }
+}// NormalMember

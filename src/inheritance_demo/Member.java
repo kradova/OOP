@@ -39,16 +39,17 @@ public class Member {
         }
     }//setDiscount
 
-    public void displayMemInfo(){
+    public void displayMemInfo() {
         System.out.println("Member Name: " + name);
         System.out.println("Member ID: " + memberID);
         System.out.println("Member Since " + memberSince);
         System.out.println("Annual Fee: " + annualFee);
     }
 
-    public void calculateAnnualFee()
-    {
+    public void calculateAnnualFee() {
         annualFee = 0;
     }
+
+
 
 }//class Member
