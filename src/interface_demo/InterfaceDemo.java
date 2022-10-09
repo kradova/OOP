@@ -6,5 +6,8 @@ public class InterfaceDemo {
         a.someMethod();
 
         System.out.println("The value of the constant is " + MyInterface.myInt);
+
+        a.someDefaultMethod();
+        MyInterface.someStaticMethod();
     }
 }
