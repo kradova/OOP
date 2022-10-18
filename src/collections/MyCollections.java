@@ -23,5 +23,28 @@ public class MyCollections {
         userAgeList.set(3, 49);
         System.out.println(userAgeList);
 
+        userAgeList.remove(3);
+        System.out.println(userAgeList);
+
+        System.out.println(userAgeList.get(2));
+
+        System.out.println(userAgeList.size());
+
+        System.out.println(userAgeList.contains(51));
+        System.out.println(userAgeList.contains(22));
+
+        System.out.println(userAgeList.indexOf(53));
+        System.out.println(userAgeList.indexOf(12));
+
+        Object[] myArray = userAgeList.toArray();
+        System.out.println(myArray);
+
+        Integer[] myIntArray = userAgeList.toArray(new Integer[0]);
+        System.out.println(myIntArray);
+
+        userAgeList.clear();
+        System.out.println(userAgeList);
+
+
     }//main
 }//MyCollections
