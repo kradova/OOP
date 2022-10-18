@@ -39,6 +39,11 @@ public class MyCollections {
         Object[] myArray = userAgeList.toArray();
         System.out.println(myArray);
 
+        System.out.println("=============================");
+        System.out.println("Print all el-ts of userAgeList:");
+        userAgeList.forEach((n) -> System.out.println(n));
+        System.out.println("=============================");
+
         Integer[] myIntArray = userAgeList.toArray(new Integer[0]);
         System.out.println(myIntArray);
 
