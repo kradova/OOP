@@ -20,5 +20,8 @@ public class MyCollections {
 
         System.out.println(userAgeList);
 
+        userAgeList.set(3, 49);
+        System.out.println(userAgeList);
+
     }//main
 }//MyCollections
