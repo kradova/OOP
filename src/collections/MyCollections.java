@@ -9,5 +9,11 @@ public class MyCollections {
         ArrayList<String> userNameList = new ArrayList<>();
         List<String> userNameList2 = new ArrayList<>();
 
+        userAgeList.add(40);
+        userAgeList.add(53);
+        userAgeList.add(45);
+        userAgeList.add(53);
+
+        System.out.println(userAgeList);
     }//main
 }//MyCollections

@@ -11,6 +11,6 @@ public class ClassB {
         // Разрешено
         System.out.println(p.packagePrivateNum);
         // НЕ разрешено!
-        System.out.println(p.privateNum);
+ //       System.out.println(p.privateNum);
     }
 }//ClassB
