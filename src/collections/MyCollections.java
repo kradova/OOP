@@ -15,5 +15,10 @@ public class MyCollections {
         userAgeList.add(53);
 
         System.out.println(userAgeList);
+
+        userAgeList.add(2, 51);
+
+        System.out.println(userAgeList);
+
     }//main
 }//MyCollections
