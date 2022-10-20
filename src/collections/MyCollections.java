@@ -52,10 +52,21 @@ public class MyCollections {
         System.out.println(userAgeList);
 
        //LinkedList
+        System.out.println("========================================");
+        System.out.println("==============LinkedList===============");
+        System.out.println("========================================");
         LinkedList<Integer> userAgeLinkedList = new LinkedList<>();
         List<Integer> userAgeLinkedList2 = new LinkedList<>();
 
         //The same methods as for ArrayList
+        userAgeLinkedList.add(40);
+        userAgeLinkedList.add(53);
+        userAgeLinkedList.add(45);
+        userAgeLinkedList.add(53);
+
+        System.out.println(userAgeLinkedList.poll());
+        System.out.println(userAgeLinkedList);
+
 
 
     }//main
