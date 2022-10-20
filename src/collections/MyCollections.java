@@ -67,6 +67,7 @@ public class MyCollections {
         System.out.println(userAgeLinkedList.poll());
         System.out.println(userAgeLinkedList);
 
+        System.out.println(userAgeLinkedList.peek());
 
 
     }//main
