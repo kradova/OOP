@@ -51,7 +51,7 @@ public class MyCollections {
         userAgeList.clear();
         System.out.println(userAgeList);
 
-       //LinkedList
+        //LinkedList
         System.out.println("========================================");
         System.out.println("==============LinkedList===============");
         System.out.println("========================================");
@@ -71,5 +71,13 @@ public class MyCollections {
 
 //        System.out.println((new LinkedList<Integer>()).getFirst());
 
+        MyClass mc = new MyClass();
+
+        ArrayList<Integer> b = new ArrayList<>();
+
+        mc.methodOne(b);
+
+        ArrayList<Integer> c = mc.methodTwo();
     }//main
+
 }//MyCollections
