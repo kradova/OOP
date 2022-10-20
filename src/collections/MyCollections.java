@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MyCollections {
@@ -49,6 +50,12 @@ public class MyCollections {
 
         userAgeList.clear();
         System.out.println(userAgeList);
+
+       //LinkedList
+        LinkedList<Integer> userAgeLinkedList = new LinkedList<>();
+        List<Integer> userAgeLinkedList2 = new LinkedList<>();
+
+        //The same methods as for ArrayList
 
 
     }//main
