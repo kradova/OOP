@@ -69,6 +69,7 @@ public class MyCollections {
 
         System.out.println(userAgeLinkedList.peek());
 
+//        System.out.println((new LinkedList<Integer>()).getFirst());
 
     }//main
 }//MyCollections
