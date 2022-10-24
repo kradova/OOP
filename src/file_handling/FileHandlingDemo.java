@@ -44,5 +44,11 @@ public class FileHandlingDemo {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+
+        File f = new File("myFile.txt");
+        File nf = new File("myNewFile.txt");
+
+       f.renameTo(nf);
+
     }//main
 }//class FileHandlingDemo
