@@ -50,5 +50,6 @@ public class FileHandlingDemo {
 
        f.renameTo(nf);
 
+       nf.delete();
     }//main
 }//class FileHandlingDemo
