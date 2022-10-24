@@ -37,8 +37,8 @@ public class FileHandlingDemo {
 //        } catch (IOException e) {
 //            System.out.println(e.getMessage());
 //        }
-        String text = "Hello World ";
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("myFile2.txt", true))) {
+        String text = "Hello World";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("myFile2.txt", false))) {
             writer.write(text);
             writer.newLine();
         } catch (IOException e) {
